@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Font Scale Generator
 
-## Getting Started
+A modern, interactive tool for generating beautiful type scales and font hierarchies. Built with Next.js, Tailwind CSS v4, and Three.js.
 
-First, run the development server:
+## 🌟 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+-   **Type Scale Generation**: Easily calculate font sizes based on modular scales (music intervals, golden ratio, etc.).
+-   **Interactive Playground**: Visualize your type scales in real-time.
+-   **Modern UI/UX**:
+    -   **Pixel Snow Background**: A dynamic, interactive background effect using Three.js.
+    -   **Shiny Text Effects**: Eye-catching typography animations.
+    -   **Glassmorphism & Gradients**: Sleek, modern design aesthetic.
+-   **Component Library**: Reusable components built with Tailwind CSS and Framer Motion.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+-   **Framework**: [Next.js 15](https://nextjs.org/) (App Directory)
+-   **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+-   **Animation**: [Framer Motion](https://www.framer.com/motion/)
+-   **3D Graphics**: [Three.js](https://threejs.org/) & [React Three Fiber](https://docs.pmnd.rs/react-three-fiber)
+-   **Icons**: [React Iconly](https://github.com/jrgarciadev/react-iconly)
+-   **Utils**: `clsx`, `tailwind-merge`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Getting Started
 
-## Learn More
+1.  **Clone the repository:**
 
-To learn more about Next.js, take a look at the following resources:
+    ```bash
+    git clone https://github.com/yourusername/font-scale.git
+    cd font-scale
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2.  **Install dependencies:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+    ```bash
+    npm install
+    # or
+    yarn install
+    # or
+    pnpm install
+    # or
+    bun install
+    ```
 
-## Deploy on Vercel
+3.  **Run the development server:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    # or
+    pnpm dev
+    # or
+    bun dev
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4.  **Open [http://localhost:3000](http://localhost:3000)** in your browser to see the app.
+
+## 📂 Project Structure
+
+-   `src/app`: App router pages and layouts.
+-   `src/components`: Reusable UI components.
+    -   `playground`: Components specific to the interactive playground.
+    -   `type-scale`: Components for the font scale logic.
+-   `src/hooks`: Custom React hooks (e.g., `useTypeScale`).
+-   `src/lib`: Utility functions.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
