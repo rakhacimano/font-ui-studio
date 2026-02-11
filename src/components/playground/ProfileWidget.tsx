@@ -15,7 +15,7 @@ export default function ProfileWidget({ secondaryFont }: { secondaryFont: string
                     <label className="text-xs font-medium text-white/80">Name</label>
                     <input
                         type="text"
-                        defaultValue="shadcn"
+                        defaultValue=" cimanoui"
                         className="w-full bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-white/30 transition-colors"
                         style={{ fontFamily: secondaryFont }}
                     />
@@ -24,7 +24,7 @@ export default function ProfileWidget({ secondaryFont }: { secondaryFont: string
                     <label className="text-xs font-medium text-white/80">Username</label>
                     <input
                         type="text"
-                        defaultValue="@shadcn"
+                        defaultValue="@ cimanoui"
                         className="w-full bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-white/30 transition-colors"
                         style={{ fontFamily: secondaryFont }}
                     />

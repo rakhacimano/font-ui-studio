@@ -49,7 +49,7 @@ export default function Navbar() {
                 <div className="flex md:hidden items-center gap-3">
                     <a href="/playground" className="flex items-center gap-2 px-3 py-1.5 bg-indigo-500/10 border border-indigo-500/50 rounded-full">
                         <span className="text-xs font-bold text-indigo-400">
-                            UI Playground
+                            Open UI Playground
                         </span>
                         <span className="w-1.5 h-1.5 rounded-full bg-indigo-500 animate-pulse" />
                     </a>
@@ -110,7 +110,7 @@ export default function Navbar() {
                             </a>
                             {/* Keep UI Playground in menu as well for completeness */}
                             <a href="/playground" className="text-xl font-medium text-indigo-400 hover:text-indigo-300 transition-colors flex items-center justify-center gap-2" onClick={() => setMobileMenuOpen(false)}>
-                                UI Playground
+                                Open UI Playground
                                 <span className="w-1.5 h-1.5 rounded-full bg-indigo-500" />
                             </a>
                             <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-xl font-medium text-white/50 hover:text-white transition-colors" onClick={() => setMobileMenuOpen(false)}>
